@@ -1,0 +1,564 @@
+/* ======================================================================Reset css start============================================================ */
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+ol,ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+/* ======================================================================Reset css end============================================================ */
+/* ======================================================================Common css start============================================================ */
+body
+{
+    width: 100%;
+}
+.container
+{
+    width: 1140px;
+    margin: auto;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.font_16
+{
+    font-size: 16px;
+}
+.font_36
+{
+    font-size: 36px;
+}
+.font_56
+{
+    font-size: 56px;
+}
+
+.font_l
+{
+    font-weight: 300;
+}
+.font_m
+{
+    font-weight: 500;
+}
+.font_sb
+{
+    font-weight: 600;
+}
+
+/* ======================================================================Common css end============================================================ */
+/* ======================================================================nav css start============================================================ */
+
+.background_color
+{
+    background:  #EEEDDE;
+}
+
+.justify
+{
+    justify-content: space-between;
+}
+.logo
+{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.menu_box ul
+{
+    display: flex;
+    column-gap: 100px;
+    margin-top: 63px;
+}
+.menu_box ul li a
+{
+    color: #203239;
+    position: relative;
+}
+
+.menu_box ul li a::after
+{
+    content: '';
+    width: 0px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #F6762E;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition:  .4s;
+
+
+}
+
+.menu_box ul li a:hover::after
+{
+    width: 30px;
+    transform-origin: left;
+}
+
+/* ======================================================================nav css end============================================================ */
+/* ======================================================================hero section css start============================================================ */
+
+/* #hero
+{
+    background:  #EEEDDE;
+} */
+.hero_content .item h1
+{
+    color: #203239;
+    padding-top: 100px;
+}
+
+.hero_content .item p
+{
+    color: #20323969;
+    width: 450px;
+    margin-top: 24px;
+}
+.hero-btn
+{
+    position: relative;
+}
+
+.hero-btn input
+{
+    width: 675px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    z-index: -1;
+    margin-top: 56px;
+}
+
+.hero-btn .fa-location-dot
+{
+    position: absolute;
+    left: 25px;
+    top: 81px;
+    font-size: 24px;
+}
+
+.hero-btn p
+{
+    position: absolute;
+    left: 74px;
+    top: 61px;
+    color: #20323969;
+}
+.hero-btn a
+{
+    position: absolute;
+    top: 70px;
+    right: 120px;
+    padding: 13px 41px;
+    background: #203239;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+.hero_count
+{
+    display: flex;
+    column-gap: 75px;
+    width: 590px;
+}
+
+.hero_count h3
+{
+    line-height: 150px;
+    width: 143px;
+    margin-top: -95px;
+}
+.hero_count h3 span
+
+{
+    color: #FF7527;
+    line-height: 150px;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.hero_count p
+
+{
+    color: #203239;
+    line-height: 30px;
+    width: 120px;
+    margin-top: -26px;
+}
+
+/* ======================================================================hero section css end============================================================ */
+/* ======================================================================about section css end============================================================ */
+
+#about
+{
+    background-color: #fff;
+}
+
+.column_gap
+{
+    column-gap: 133px;
+}
+
+.about_content
+{
+    padding-top: 100px;
+}
+.about_content h2
+{
+    color: #203239;
+    width: 533px;
+    text-transform: capitalize;
+}
+
+.header_line::after
+{
+    content: '';
+    width: 8px;
+    height: 30px;
+    background-color: #FF7527;
+    border-radius: 5px;
+    position: absolute;
+    top: 13px;
+    left: 0;
+
+}
+.about_item
+{
+    width: 300px;
+    height: 300px;
+    margin-top: 84px;
+}
+.header_line
+{
+    display: flex;
+    column-gap: 132px;
+    position: relative;
+    align-items: baseline;
+
+}
+
+.header_line .content_one h2
+{
+    padding-top: 20px ;
+    padding-left: 25px;
+}
+
+.header_line  .content_two h2
+{
+    position: absolute;
+    top: 21px;
+    right: 0;
+    color: #FF7527;
+} 
+
+
+.content p
+{
+    line-height: 30px;
+    color: #20323956;
+    margin-top: 8px;
+    width: 250px;
+    margin-left: 33px;
+}
+.content a
+{
+    color: #203239;
+    display: inline-block;
+    padding: 48px 0px 20px 33px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+
+.content a::after
+{
+    content: '';
+    width: 40px;
+    height: 30px;
+    z-index: -1;
+    background-color: #D6D5C7;
+    position: absolute;
+    top: 42px;
+    left: 20px;
+    
+}
+.content i
+{
+    color: #203239;
+    margin-left: 8px;
+
+}
+.content .margin_top
+{
+    margin-top: 30px;
+}
+/* ======================================================================about section css end============================================================ */
+/* ======================================================================residen-favorit section css ============================================================ */
+#residen-favorit
+{
+    background-color: #EEEDDE;
+}
+
+.justify_content
+
+{
+    column-gap: 259px;
+}
+.residen_header_line h4
+{
+    color: #FF7527;
+    margin-top: 68px;
+}
+.residen_header_line h2
+{
+    color: #203239;
+    line-height: 150%;
+    margin-top: 8px;
+}
+
+.residen_img 
+{
+    margin-top: 64px;
+    position: relative;
+}
+
+.residen_img .img_one
+{
+    position: absolute;
+    top: 60px;
+    left: 83px;
+}
+
+.residen_content
+{
+    margin-top: 64px;
+}
+.residen_content h2
+{
+    line-height: 150%;
+    width: 507px;
+    color: #203239;
+}
+.residen_content p
+{
+    line-height: 25px;
+    width: 570px;
+    color: #203239;
+    margin-top: 24px;
+}
+.residen_btn
+{
+    display: flex;
+    column-gap: 48px;
+    margin-top: 48px;
+}
+
+.residen_btn  a
+{
+    padding: 13px 41px;
+    border: 1px solid #203239;
+    border-radius: 10px;
+    transition: .4s;
+    background: transparent;
+    color: #203239;
+    
+}
+
+.residen_btn a:hover
+{
+    background: #203239;
+    color: #fff;
+    
+}
+
+
+
+.residen_btn .fa-phone
+{
+    margin-right: 12px;
+}
+
+/* ======================================================================residen-favorit section css end============================================================ */
+/* ======================================================================residen-favorit section css end============================================================ */
+#Residen-Berbagai-Kota
+{
+    background: #fff;
+}
+.space
+{
+    column-gap: 49px;
+    margin-top: 64px;
+}
+.kota_header_line
+{
+    margin-top: 136px;
+}
+.kota_header_line h4
+{
+    color: #FF7527;
+    padding-top: 68px;
+    
+}
+
+.kota_content h2
+{
+    font-size: 24px;
+    font-weight: 500;
+    color: #203239;
+    line-height: 150%;
+    margin-top: 14px;
+    text-transform: capitalize;
+}
+
+.kota_content p
+{
+    color: #203239;
+    line-height: 30px;
+    width: 356px;
+    margin-top: 8px;
+
+}
+/* ======================================================================residen-favorit section css end============================================================ */
+/* ======================================================================footet section css end============================================================ */
+
+.footer_contact
+{
+    width: 60%;
+}
+.contact
+{
+    display: flex;
+    column-gap: 48px;
+    margin-top: 63px;
+}
+.footer_item
+{
+    width: 243px;
+    height: 178px;
+    border: 2px solid #ff76278c;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.footer_item_two
+{
+    width: 306px;
+    height: 178px;
+    border: 2px solid #ff76277a;
+    box-sizing: border-box;
+}
+.awards
+{
+    display: flex;
+    column-gap: 32px;
+    align-items: baseline;
+    margin-top: 39px;
+}
+
+.footer_item
+{
+    padding:24px;
+}
+
+.footer_item .fa-phone
+{
+    font-size: 48px;
+    color: #203239;
+    width: 40%;
+    float: left;
+
+}
+.footer_item h2
+{
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #203239;
+    width: 60%;
+    float: left;
+
+}
+
+.footer_item a
+{
+    padding: 13px 62px;
+    background: #ff762733;
+    display: inline-block;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: none;
+}
+.footer_item_two
+{
+    padding: 24px;
+}
+.footer_item_two i
+{
+    font-size: 48px;
+    color: #203239;
+    width: 30%;
+    float: left;
+}
+.footer_item_two h2
+{
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #203239;
+    width: 70%;
+    float: left;
+
+}
+
+.footer_item_two a
+{
+    padding: 13px 55px;
+    background: #FF7527;
+    margin-top: 24px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-left: 31px;
+}
+#footer_end
+{
+    background: #203239;
+    margin-top: 48px;
+}
+.space_berween
+{
+    justify-content: space-between;
+    align-items: baseline; 
+}
+.logo img
+{
+    width: 72px;
+    padding-bottom: 31px;
+}
+.icons img
+{
+    padding-bottom: 40px ;
+}
+
+/* ======================================================================footet section css end============================================================ */
+
+
